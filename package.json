@@ -4,11 +4,14 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "start": "node index.js"
+    "start": "cross-env PORT=8080 node index.js"
   },
   "dependencies": {
     "express": "^4.14.0",
     "express-graphql": "^0.6.1",
     "graphql": "^0.7.2"
+  },
+  "devDependencies": {
+    "cross-env": "^5.0.5"
   }
 }
